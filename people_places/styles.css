@@ -1,0 +1,366 @@
+                     * {
+                         margin: o;
+                         padding: 0;
+                         box-sizing: border-box;
+                     }
+                     
+                     html {
+                         scroll-behavior: smooth;
+                     }
+                     
+                     body {
+                         margin: 0;
+                         padding: 0;
+                         font-family: Chivo;
+                     }
+                     
+                     h1 {
+                         font-size: 50px;
+                         font-family: Audiowide;
+                     }
+                     
+                     p {
+                         font-size: 24px;
+                         line-height: 25px;
+                     }
+                     
+                     .header h1 {
+                         position: relative;
+                         top: 18px;
+                         left: 10px;
+                     }
+                     
+                     .navbar {
+                         position: fixed;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: row;
+                         flex-wrap: wrap;
+                         background-color: #d4d4d4;
+                         width: 100%;
+                         height: 90px;
+                         z-index: 1;
+                     }
+                     
+                     .nav {
+                         display: flex;
+                         justify-content: right;
+                         list-style: none;
+                         /* margin-right: 15%; */
+                     }
+                     
+                     .nav-brand {
+                         margin: 0;
+                     }
+                     
+                     .navbar-brand {
+                         margin: 0;
+                         padding: 0;
+                     }
+                     
+                     .logo {
+                         flex: 1 1 auto;
+                         margin-left: 10%;
+                         text-transform: uppercase;
+                         letter-spacing: 1px;
+                         font-weight: bold;
+                         font-size: 35px;
+                         width: 50%
+                     }
+                     
+                     img {
+                         width: 60%;
+                     }
+                     
+                     a {
+                         margin: 15px;
+                         color: #000;
+                         text-decoration: none;
+                         text-transform: uppercase;
+                     }
+                     
+                     a:hover {
+                         color: #000;
+                     }
+                     
+                     .banner-area {
+                         position: relative;
+                         width: 100%;
+                         height: 100vh;
+                         background-repeat: no-repeat;
+                         background-size: cover;
+                     }
+                     
+                    /* .projects-area,
+                     .shop-area,
+                     .about-area,
+                     .contact-area {
+                         position: relative;
+                         display: flex;
+                         justify-content: space-around;
+                         align-items: center;
+                         flex-wrap: wrap;
+                         flex-direction: row;
+                         width: 100%;
+                         height: 700px;
+                     }*/
+                     
+                     .no-white {
+                         background-color: transparent;
+                         border: none;
+                         width: fit-content!important;
+                     }
+                     
+                     .text {
+                         font-size: 18px
+                     }
+                     
+                     .text-part {
+                         width: 65%;
+                         height: 80%;
+                     }
+                     
+                     .p-logo {
+                         height: 55px;
+                         width: auto;
+                     }
+                     
+                     html {
+                         scroll-behavior: smooth;
+                     }
+                     
+                     body {
+                         font-family: 'Syne', sans-serif;
+                         font-family: 'Chivo', sans-serif;
+                     }
+                     
+                     section {
+                         height: 650px;
+                         display: flex;
+                         justify-content: space-evenly;
+                         padding: 0 40px;
+                         align-items: center;
+                     }
+                     
+                     section h2 {
+                         font-size: 50px;
+                         font-weight: 500;
+                         margin-bottom: 5px;
+                     }
+                     
+                     section p {
+                         font-size: 50px;
+                         font-weight: 500;
+                         margin-bottom: 5px;
+                     }
+                     
+                     section p {
+                         /* font-weight: 300; */
+                         margin-bottom: 15px;
+                     }
+                     
+                     section a {
+                         display: inline-block;
+                         padding: 7px 0;
+                         color: #fc6076;
+                         text-decoration: none;
+                         width: 100px;
+                         text-align: center;
+                         border: 1px solid #fff;
+                         border-radius: 50px;
+                         background: #fff;
+                     }
+                     
+                     section img {
+                         height: 60%
+                     }
+                     
+                     section:nth-child(5) {
+                         background-image: linear-gradient(-45deg, #d4d4d4 0%, #6c63ff 100%);
+                     }
+                     
+                     section:nth-child(4) {
+                         background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+                     }
+                     
+                     section:nth-child(3) {
+                         background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+                     }
+                     
+                     section:nth-child(2) {
+                         background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+                     }
+                     
+                     section:nth-child(1) {
+                         background-color: #f5f5dc;
+                     }
+                     /* Contact Form */
+                     
+                     .container {
+                         position: relative;
+                         width: 100%;
+                         height: 100%;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         padding: 20px 100px;
+                     }
+                     
+                     .container:after {
+                         content: '';
+                         position: absolute;
+                         width: 100%;
+                         height: 100%;
+                         left: 0;
+                         top: 0;
+                         background: url("img/bg.jpg") no-repeat center;
+                         background-size: cover;
+                         filter: blur(50px);
+                         z-index: -1;
+                     }
+                     
+                     .contact-box {
+                         background-image: linear-gradient(-45deg, #d4d4d4 0%, #DD4124 100%);
+                         max-width: 850px;
+                         display: grid;
+                         grid-template-columns: repeat(2, 1fr);
+                         justify-content: center;
+                         align-items: center;
+                         text-align: center;
+                         background-color: #fff;
+                         box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+                     }
+                     
+                     .left {
+                         background: url("img/email.svg") no-repeat center;
+                         background-size: cover;
+                         height: 100%;
+                     }
+                     
+                     .right {
+                         padding: 25px 40px;
+                     }
+                     
+                     h2 {
+                         position: relative;
+                         padding: 0 0 10px;
+                         margin-bottom: 10px;
+                     }
+                     
+                     .margin20 {
+                         margin-right: 20px;
+                     }
+                     
+                     .field {
+                         width: 100%;
+                         border: 2px solid rgba(0, 0, 0, 0);
+                         outline: none;
+                         background-color: rgba(230, 230, 230, 0.6);
+                         padding: 0.5rem 1rem;
+                         font-size: 1.1rem;
+                         margin-bottom: 22px;
+                         transition: .3s;
+                     }
+                     
+                     .field:hover {
+                         background-color: rgba(0, 0, 0, 0.1);
+                     }
+                     
+                     textarea {
+                         min-height: 150px;
+                     }
+                     
+                     .btn {
+                         width: 100%;
+                         padding: 0.5rem 1rem;
+                         background-color: #DD4124;
+                         color: #fff;
+                         font-size: 1.1rem;
+                         border: none;
+                         outline: none;
+                         cursor: pointer;
+                         transition: .3s;
+                     }
+                     
+                     .btn:hover {
+                         background-color: blue;
+                     }
+                     
+                     .field:focus {
+                         border: 2px solid grey;
+                         background-color: #fff;
+                     }
+                     /* End Contact Form */
+                     
+                     .img-size {
+                         max-width: 500px;
+                         height: auto;
+                         width: 100%;
+                     }
+
+                     .carousel {
+                        position: centered;
+                        height: auto;
+                        width:640px;
+                        height:360px;
+                      }
+
+
+                      .footer {
+                        position: fixed;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        background-color:d4d4d4;
+                        color: white;
+                        text-align: center;
+                      }
+                     
+                     @media screen and (max-width: 880px) {
+                         .contact-box {
+                             grid-template-columns: 1fr;
+                         }
+                         .left {
+                             height: 200px;
+                         }
+                         /* Footer */
+                         footer {
+                             background-color: #d4d4d4;
+                             color: white;
+                             padding: 15px;
+                             text-align: center;
+                         }
+                         .fa {
+                             color: black;
+                             font-size: 50px;
+                         }
+                     }
+                     
+                     @media screen and (max-width: 600px) {
+                         .navbar {
+                             height: 120px;
+                         }
+                         .text {
+                             line-height: inherit;
+                         }
+                         section {
+                             flex-direction: column-reverse;
+                             justify-content: center;
+                             width: 100%;
+                         }
+                         section>img {
+                             height: 25%;
+                         }
+                         section h2 {
+                             font-size: 30px;
+                         }
+                         #sec4 {
+                             height: 800px
+                         }
+                         #sec5 {
+                             padding-top: 60px;
+                         }
+                     }
+
+                     
